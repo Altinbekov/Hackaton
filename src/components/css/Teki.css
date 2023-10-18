@@ -1,0 +1,113 @@
+
+
+.Treki {
+    width: 100%;
+    min-height: 150vh;
+    height: auto;
+    background: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.track {
+    color: #f7f7f7;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.firs-column {
+    background-color: transparent;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-column {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.center-container {
+    background-color: #35343454;
+}
+.last-container {
+    background-color: #35343454;
+}
+/* *: first column */
+.fc-card-first {
+    width: 423px;
+    height: 500px;
+    border-radius: 20px;
+    background: #19624c;
+}
+.fc-card-second {
+    width: 423px;
+    height: 500px;
+    border-radius: 20px;
+    background: #ffb8ff;
+    margin-top: 40px;
+}
+
+/* *second column */
+.sc-card-first {
+    width: 423px;
+    height: 500px;
+    border-radius: 20px;
+    background: #f3fffb;
+    margin-top: 250px;
+}
+.sc-card-second {
+    width: 423px;
+    height: 350px;
+    border-radius: 20px;
+    background: #b8330f;
+    margin-top: 40px;
+}
+
+/* *: center card */
+.card-center {
+    width: 64%;
+    height: 330px;
+    border-radius: 20px;
+    background: #cccf1d;
+    margin-top: 40px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.l-card-first {
+    width: 423px;
+    height: 500px;
+    border-radius: 20px;
+    background: #f3fffb;
+    margin-top: -90px;
+}
+
+.l-card-second {
+    width: 423px;
+    height: 630px;
+    border-radius: 20px;
+    background: #a2fde0;
+    margin-top: 40px;
+}

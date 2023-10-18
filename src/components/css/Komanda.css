@@ -1,0 +1,120 @@
+
+.komanda{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.komanda > h4{
+    color: #FF4800;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; 
+}
+.komanda > h1{
+    color: #F7F7F7;
+text-align: center;
+font-family: Inter;
+font-size: 37px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+}
+.komanda > ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 50%;
+    margin-top: 2%;
+}
+.ite{
+    width: 30%;
+    height: 100%;
+    background-color: #141414;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 1s;
+}
+.ite:hover{
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.circle{
+    inline-size: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+.circle > img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.ite > h2{
+    color: #F7F7F7;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 3%;
+    line-height: 38.4px; 
+}
+.ite > p{
+    color: #A1A1A1;
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.ite > button{
+    padding: 13px 43.5px 13px 34.5px;
+    border: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #F7F7F7;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 4%;
+    transition: 0.5s;
+}
+.ite > button:hover{
+    background-color: #F7F7F7;
+    color: #000;
+}
+.ite > h6{
+    color: #A1A1A1;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 3%;
+}
+.komanda > h5{
+    color: #A1A1A1;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; 
+}
+.komanda > p{
+    color: #F7F7F7;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33.6px;
+}
